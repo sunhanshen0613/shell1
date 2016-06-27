@@ -1,0 +1,13 @@
+<div class="m-index">
+  <div class="l-container">
+
+  </div>
+  <footer>
+    <ul>
+      <li class="active" action-type="switch.tabs" data-tag="home"><i class="yo-ico" >&#xe604;</i><b>首页</b></li>
+      <li action-type="switch.tabs" data-tag="classify"><i class="yo-ico" >&#xe666;</i><b>分类</b></li>
+      <li action-type="switch.tabs" data-tag="position"><i class="yo-ico" >&#xe608;</i><b>附近</b></li>
+      <li action-type="switch.tabs" data-tag="my"><i class="yo-ico" >&#xe60f;</i><b>我</b></li>
+    </ul>
+  </footer>
+</div>

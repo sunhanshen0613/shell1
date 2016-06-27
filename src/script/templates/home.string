@@ -1,0 +1,92 @@
+<div class="m-home">
+  <header>
+    <ul>
+      <li><i><img src="/shell/images/icon.png" alt=""></i><b>药品通</b></li>
+      <li>
+        <i class="yo-ico">&#xe637;</i>
+        <input type="text" name="name" placeholder="输入药品名或疾病名">
+      </li>
+      <li><i class="yo-ico">&#xe622;</i><b>扫一扫</b></li>
+    </ul>
+  </header>
+
+  <section spa-widget="scroll" data-scroll-id="homeHotScroll">
+    <div >
+      <div class="banner" >
+        <div class="swiper-container">
+            <div class="swiper-wrapper" >
+                <div class="swiper-slide" ms-repeat-value="homelistbanner">
+                  <img ms-src="value.image_url" alt="">
+                </div>
+
+            </div>
+            <!-- 如果需要分页器 -->
+            <div class="swiper-pagination"></div>
+
+        </div>
+      </div>
+
+      <nav>
+         <ul>
+           <li ><i class="yo-ico" style="background:#7cd174;">&#xe622;</i><b>扫码找药</b></li>
+           <li><i class="yo-ico" style="background:#fb7470;">&#xe654;</i><b>咨询医生</b></li>
+           <li><i class="yo-ico" style="background:#64b5cf;">&#xe63c;</i><b>服药提醒</b></li>
+           <li><i class="yo-ico" style="background:#8664b6;">&#xe603;</i><b>对症下药</b></li>
+         </ul>
+      </nav>
+
+      <div class="top">
+        <ul>
+          <li><img src="/shell/images/nav-1.jpg" alt=""></li>
+          <li><img src="/shell/images/nav-2.jpg" alt=""></li>
+        </ul>
+      </div>
+      <div class="shopping"  >
+          <p >
+            <a href="#">感冒用药</a>
+          </p>
+          <div class="shopping-content" ms-repeat-value="homelist1" >
+          <dl action-type="goto.detail" ms-attr-data-id="value[0].id">
+            <dt><img ms-src="value[0].TitleImg" alt="" /></dt>
+            <dd>
+              <p ms-text="value[0].NameCN"></p>
+              <b>￥<span ms-text="value[0].AvgPrice"></span></b>
+            </dd>
+          </dl>
+          <dl action-type="goto.detail" ms-attr-data-id="value[1].id">
+            <dt><img ms-src="value[1].TitleImg" alt="" /></dt>
+            <dd>
+              <p ms-text="value[1].NameCN"></p>
+              <b>￥<span ms-text="value[1].AvgPrice"></span></b>
+            </dd>
+          </dl>
+        </div>
+
+
+      </div>
+      <div class="shopping"  >
+        <p >
+          <a href="#">慢性病药</a>
+        </p>
+        <div class="shopping-content" ms-repeat-value="homelist2">
+          <dl action-type="goto.detail" ms-attr-data-id="value[0].id">
+            <dt><img ms-src="value[0].TitleImg" alt="" /></dt>
+            <dd>
+              <p ms-text="value[0].NameCN"></p>
+              <b>￥<span ms-text="value[0].AvgPrice"></span></b>
+            </dd>
+          </dl>
+          <dl action-type="goto.detail" ms-attr-data-id="value[1].id">
+            <dt><img ms-src="value[1].TitleImg" alt="" /></dt>
+            <dd>
+              <p ms-text="value[1].NameCN"></p>
+              <b>￥<span ms-text="value[1].AvgPrice"></span></b>
+            </dd>
+          </dl>
+        </div>
+      </div>
+
+
+    </div >
+  </section>
+</div>

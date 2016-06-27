@@ -1,0 +1,17 @@
+<div class="m-classify">
+  <header>
+    <ul>
+      <li><i><img src="/shell/images/icon.png" alt=""></i><b>药品通</b></li>
+      <li>
+        <i class="yo-ico">&#xe637;</i>
+        <input type="text" name="name" placeholder="输入药品名或疾病名">
+      </li>
+      <li><i class="yo-ico">&#xe622;</i><b>扫一扫</b></li>
+    </ul>
+  </header>
+
+  <section >
+
+
+  </section>
+</div>

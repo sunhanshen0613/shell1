@@ -1,0 +1,58 @@
+
+<div class="m-detail">
+  <div class="l-container" >
+    <header>
+      <ul>
+        <li class="yo-ico">&#xe622;</li>
+        <li>药品详情</li>
+        <li class="yo-ico">&#xe622;</li>
+        <li class="yo-ico">&#xe622;</li>
+      </ul>
+    </header>
+     <div class="d-home">
+       <section >
+        <div class="produce" >
+          <dl>
+            <dt>
+              <img ms-src="detailImg" alt="">
+            </dt>
+            <dd>
+              <h6 ms-text="namecn"></h6>
+              <p ms-text="refdrugcompanyname"></p>
+              <b ms-text="gongneng"></b>
+              <b>
+                <i class="yo-ico">&#xe622;</i>
+                <i class="yo-ico">&#xe622;</i>
+                <i class="yo-ico">&#xe622;</i>
+                <i class="yo-ico">&#xe622;</i>
+                <i class="yo-ico">&#xe622;</i>
+                <i class="yo-ico">&#xe622;</i>
+              </b>
+            </dd>
+          </dl>
+        </div>
+        <nav>
+          <ul class="detail-nav">
+            <li class="active" action-type="detailt.slide">价格</li>
+            <li action-type="detailt.slide">用药点评</li>
+            <li action-type="detailt.slide">用药咨询</li>
+            <li action-type="detailt.slide">说明书</li>
+          </ul>
+        </nav>
+        <div class="message">
+          <div class="swiper-message">
+             <div class="swiper-wrapper">
+                 <div class="swiper-slide">Slide 1</div>
+                 <div class="swiper-slide">Slide 2</div>
+                 <div class="swiper-slide">Slide 3</div>
+                 <div class="swiper-slide">Slide 4</div>
+             </div>
+         </div>
+        </div>
+       </section>
+     </div>
+  </div>
+  <footer>
+    <p>最低价</p>
+  </footer>
+</div>
